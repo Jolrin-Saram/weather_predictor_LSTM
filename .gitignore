@@ -1,0 +1,41 @@
+# Python 가상환경
+venv/
+.env/
+
+# Python 컴파일 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebook checkpoint
+.ipynb_checkpoints/
+
+# 데이터베이스, 로그, 기타
+*.sqlite3
+*.log
+*.db
+
+# MacOS, Windows 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 환경설정/캐시
+*.env
+*.ini
+*.toml
+*.cfg
+*.cache
+*.egg-info/
+
+# Streamlit 설정 파일
+.streamlit/config.toml
+
+# 설치 프로그램 파일
+dist/
+build/
+*.spec
+*.exe
+output/
+
+#실패작
+behind/
